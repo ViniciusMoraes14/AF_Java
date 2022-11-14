@@ -57,7 +57,8 @@ public class Armazenamento<T> {
         }
         tamanhoLista++;
     }
-
+    
+    
     //Remoção pegando a posição do slot
     public void remove(int index){
         if(index == 0){
@@ -102,4 +103,5 @@ public class Armazenamento<T> {
         strRetorno += "";
         return strRetorno;
     }
+    
 }
