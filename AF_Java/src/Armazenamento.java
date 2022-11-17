@@ -97,7 +97,7 @@ public class Armazenamento<T> {
         String strRetorno = "";
         NoDuplo<T> noAuxiliar = primeiroNo;
         for(int i = 0; i<size(); i++){
-            strRetorno += "[" + noAuxiliar.getConteudo() + "]  ";
+            strRetorno += noAuxiliar.getConteudo() + " ";
             noAuxiliar = noAuxiliar.getNoProximo();
         }
         strRetorno += "";
